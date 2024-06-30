@@ -1,0 +1,40 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.op {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    background-size: cover;
+    text-transform: inherit;
+}
+
+.cadre {
+    background-color: transparent;
+    text-orientation: sideways-right;
+}
+
+.cadre:hover {
+    color: darkcyan;
+    animation-delay: 30s;
+    text-transform: lowercase;
+}
+
+.titre {
+    background-color: burlywood;
+}
+
+.titre:hover {
+    text-transform: uppercase;
+    text-decoration: dotted;
+}
+
+.img {
+    background-color: black;
+}

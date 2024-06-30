@@ -1,0 +1,32 @@
+* {
+    border: 0cap;
+    font-size: medium;
+}
+
+.banniere .contenu {
+    background-repeat: no-repeat;
+    background-color: mediumaquamarine;
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.banniere .contenu:hover {
+    border-bottom: ease-in-out;
+}
+
+.click .im:hover {
+    background-repeat: no-repeat;
+}
+
+.ct:hover {
+    background-color: antiquewhite;
+    position: relative;
+    text-align: center;
+    border-left: ease-in-out;
+    text-transform: uppercase;
+}
